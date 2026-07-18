@@ -82,6 +82,13 @@ const featuresData = [
 
 const projectsData = [
   {
+    title: 'Sunlink Power Website',
+    description:
+      'Designed, developed, and hosted the official Sunlink Power website to present the company\'s solar energy solutions with a clean, professional digital presence. The project focuses on clear product discovery, responsive browsing, and a polished experience that helps customers learn about Sunlink Power\'s renewable energy offerings online.',
+    icon: 'https://sunlink-power.com/logo.png',
+    link: 'https://sunlink-power.com/',
+  },
+  {
     title: 'Ubuzima Digital Systems (UDS)',
     description:
       'A revolutionary healthcare platform co-developed with Ingoga Technologies LTD, UDS brings AI-driven decision support to clinics across Rwanda. From smart diagnostics to automated medical records and NEXUN Intelligence integration, the system redefines how healthcare providers manage and deliver care. I worked on the full-stack architecture and led the implementation of key features including patient session analytics and AI integrations.',
@@ -270,6 +277,10 @@ function renderBenefits() {
 }
 
 const partners = [
+  {
+    image: 'https://sunlink-power.com/logo.png',
+    name: 'Sunlink Power',
+  },
   {
     image: '/images/itspace.png',
     name: 'itspace LTD',

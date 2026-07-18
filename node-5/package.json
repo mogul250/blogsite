@@ -134,7 +134,7 @@
     "yamljs": "^0.3.0"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node init && nodemon app.js",
     "test": "nyc --reporter=html --reporter=text mocha --exit"
   },
   "repository": {
